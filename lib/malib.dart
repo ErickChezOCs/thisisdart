@@ -6,8 +6,8 @@ abstract class Human {
 }
 
 class Person implements Human{
-String name, race,gender;
-Person(this.name,this.race,this.gender);
+String name,gender;
+Person(this.name,this.gender);
 @override
 void breathe(){
   print('Inspire and Expire, lungs, nose and thin air');

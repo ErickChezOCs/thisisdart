@@ -46,9 +46,9 @@ lecons.howmuch = 125000;
 //print(testeca);
 lecons.showHowmuch();
 
-var dadaJess =  malib.Person('Dada Jessim','White','Female');
+var dadaJess =  malib.Person('Dada Jessim','Female');
 
-print('${dadaJess.name} is from the ${dadaJess.race} race and has the ${dadaJess.gender} gender');
+print('${dadaJess.name}  has the ${dadaJess.gender} gender');
 
 
 }
